@@ -2,18 +2,24 @@ const path = require('path');
 
 module.exports = {
     entry: './src/index.js',
+    mode: 'production',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'index.js'
+        clean: true,
+        path: path.resolve(__dirname, 'lib'),
+        filename: 'index.js',
+        library: {
+            name: '@avena/components',
+            type: 'umd'
+        }
     },
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.css$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
-                test: /\.m?js$/,
+                test: /\.js$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: 'babel-loader',
@@ -23,5 +29,11 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    externals: {
+        react: {
+            commonjs: "react",
+            commonjs2: "react"
+        },
+    },
 }
