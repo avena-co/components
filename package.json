@@ -1,6 +1,6 @@
 {
   "name": "@avena/components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Avena Components for React",
   "files": ["dist"],
   "main": "./dist/index.js",
