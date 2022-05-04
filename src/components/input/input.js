@@ -1,9 +1,9 @@
 import React, { useId, useState } from 'react';
 
 // components
-import HStack from '../components/hstack';
-import Icon from '../components/icon';
-import VStack from '../components/vstack';
+import HStack from '../hstack';
+import Icon from '../icon';
+import VStack from '../vstack';
 
 // styles
 import styles from './input.module.scss';
