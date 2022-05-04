@@ -3,9 +3,9 @@
   "version": "1.0.7",
   "description": "Avena Components for React",
   "files": [
-    "./lib"
+    "lib"
   ],
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/avena-co/components.git"
