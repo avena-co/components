@@ -17,8 +17,8 @@
 :root {
 
     // FONTS
-    --font-family: Inter, sans-serif;
-    --font-family-monospaced: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    --avena-font-family: 'Inter', sans-serif;
+    --avena-font-family-monospace: 'Source Code Pro', monospace;
 
     --avena-font-xxs-regular: 400 10px/15px;
     --avena-font-xxs-medium: 500 10px/15px;
@@ -94,6 +94,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: var(--font-family);
+  font-family: var(--avena-font-family);
   line-height: 1.5em;
 }
