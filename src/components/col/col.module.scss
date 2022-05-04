@@ -1,0 +1,44 @@
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 575px) {
+    @for $span from 1 through 24 {
+        .col-xs-#{$span} {
+            grid-column: span $span;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    @for $span from 1 through 24 {
+        .col-sm-#{$span} {
+            grid-column: span $span;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    @for $span from 1 through 24 {
+        .col-md-#{$span} {
+            grid-column: span $span;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    @for $span from 1 through 24 {
+        .col-lg-#{$span} {
+            grid-column: span $span;
+        }
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    @for $span from 1 through 24 {
+        .col-xl-#{$span} {
+            grid-column: span $span;
+        }
+    }
+}

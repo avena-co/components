@@ -1,0 +1,9 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--avena-card-background-color);
+    border: var(--avena-card-border);
+    border-radius: var(--avena-card-border-radius);
+    box-shadow: var(--avena-card-shadow);
+}

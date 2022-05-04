@@ -1,0 +1,19 @@
+@import 'index.scss';
+
+.button {
+    background-color: var(--avena-button-background-color);
+    color: var(--avena-button-text-color);
+    cursor: pointer;
+    border: var(--avena-button-border);
+    border-radius: var(--avena-button-border-radius);
+    box-shadow: var(--avena-button-shadow);
+    font: var(--avena-text-medium) var(--avena-font-family);
+    outline: none;
+    padding: 12px 24px;
+    transition: all var(--avena-transition);
+
+    &:disabled {
+        background-color: var(--avena-button-background-color-disabled);
+        color: var(--avena-button-text-color-disabled);
+    }
+}

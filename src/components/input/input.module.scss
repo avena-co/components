@@ -1,0 +1,52 @@
+.input {
+    align-items: center;
+    background-color: var(--avena-input-background-color);
+    border: var(--avena-input-border);
+    border-radius: var(--avena-input-border-radius);
+    box-shadow: var(--avena-input-shadow);
+    cursor: text;
+    gap: var(--avena-spacing-sm);
+    height: 58px;
+    padding:var(--avena-spacing-md) var(--avena-spacing-lg);
+    transition: all var(--avena-transition);
+
+    &:focus-within {
+        border: var(--avena-input-border-focus);
+        border-radius: var(--avena-input-border-radius-focus);
+        box-shadow: var(--avena-input-shadow-focus);
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        color: var(--avena-text-color-secondary);
+        cursor: inherit;
+        transition: all var(--avena-transition);
+    }
+
+    input {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: var(--avena-text-color-primary);
+        cursor: inherit;
+        font: var(--avena-font-medium) var(--font-family);
+        margin: 0px;
+        outline: none;
+        padding: 0px;
+        transition: all var(--avena-transition);
+    }
+}
+
+.disabled {
+    background-color: var(--avena-input-background-color-disabled);
+    cursor: default;
+
+    label {
+        color: var(--avena-text-color-disabled);
+    }
+
+    input {
+        color: var(--avena-text-color-disabled);
+    }
+}
