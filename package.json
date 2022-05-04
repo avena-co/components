@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Avena Components for React",
   "files": ["dist"],
-  "main": "./dist/index.js",
+  "main": "./dist/index.modern.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/avena-co/components.git"
