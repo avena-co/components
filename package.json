@@ -25,6 +25,9 @@
     "url": "https://github.com/avena-co/components/issues"
   },
   "homepage": "https://github.com/avena-co/components#readme",
+  "peerDependencies": {
+    "react": "^18.1.0"
+  },
   "devDependencies": {
     "microbundle": "^0.15.0",
     "sass": "^1.51.0"
