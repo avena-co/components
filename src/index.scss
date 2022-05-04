@@ -20,40 +20,49 @@
     --avena-font-family: 'Inter', sans-serif;
     --avena-font-family-monospace: 'Source Code Pro', monospace;
 
-    --avena-font-xxs-regular: 400 10px/15px;
-    --avena-font-xxs-medium: 500 10px/15px;
-    --avena-font-xxs-semibold: 600 10px/15px;
-    --avena-font-xxs-bold: 700 10px/15px;
+    --avena-font-xxs-regular: 400 10px/15px var(--avena-font-family);
+    --avena-font-xxs-medium: 500 10px/15px var(--avena-font-family);
+    --avena-font-xxs-semibold: 600 10px/15px var(--avena-font-family);
+    --avena-font-xxs-bold: 700 10px/15px var(--avena-font-family);
 
-    --avena-font-xs-regular: 400 12px/18px;
-    --avena-font-xs-medium: 500 12px/18px;
-    --avena-font-xs-semibold: 600 12px/18px;
-    --avena-font-xs-bold: 700 12px/18px;
+    --avena-font-xs-regular: 400 12px/18px var(--avena-font-family);
+    --avena-font-xs-medium: 500 12px/18px var(--avena-font-family);
+    --avena-font-xs-semibold: 600 12px/18px var(--avena-font-family);
+    --avena-font-xs-bold: 700 12px/18px var(--avena-font-family);
 
-    --avena-font-s-regular: 400 14px/21px;
-    --avena-font-s-medium: 500 14px/21px;
-    --avena-font-s-semibold: 600 14px/21px;
-    --avena-font-s-bold: 700 14px/21px;
+    --avena-font-s-regular: 400 14px/21px var(--avena-font-family);
+    --avena-font-s-medium: 500 14px/21px var(--avena-font-family);
+    --avena-font-s-semibold: 600 14px/21px var(--avena-font-family);
+    --avena-font-s-bold: 700 14px/21px var(--avena-font-family);
 
-    --avena-font-m-regular: 400 16px/24px;
-    --avena-font-m-medium: 500 16px/24px;
-    --avena-font-m-semibold: 600 16px/24px;
-    --avena-font-m-bold: 700 16px/24px;
+    --avena-font-m-regular: 400 16px/24px var(--avena-font-family);
+    --avena-font-m-medium: 500 16px/24px var(--avena-font-family);
+    --avena-font-m-semibold: 600 16px/24px var(--avena-font-family);
+    --avena-font-m-bold: 700 16px/24px var(--avena-font-family);
 
-    --avena-font-l-regular: 400 18px/27px;
-    --avena-font-l-medium: 500 18px/27px;
-    --avena-font-l-semibold: 600 18px/27px;
-    --avena-font-l-bold: 700 18px/27px;
+    --avena-font-l-regular: 400 18px/27px var(--avena-font-family);
+    --avena-font-l-medium: 500 18px/27px var(--avena-font-family);
+    --avena-font-l-semibold: 600 18px/27px var(--avena-font-family);
+    --avena-font-l-bold: 700 18px/27px var(--avena-font-family);
 
-    --avena-font-xl-regular: 400 20px/30px;
-    --avena-font-xl-medium: 500 20px/30px;
-    --avena-font-xl-semibold: 600 20px/30px;
-    --avena-font-xl-bold: 700 20px/30px;
+    --avena-font-xl-regular: 400 20px/30px var(--avena-font-family);
+    --avena-font-xl-medium: 500 20px/30px var(--avena-font-family);
+    --avena-font-xl-semibold: 600 20px/30px var(--avena-font-family);
+    --avena-font-xl-bold: 700 20px/30px var(--avena-font-family);
 
-    --avena-font-xxl-regular: 400 24px/36px;
-    --avena-font-xxl-medium: 500 24px/36px;
-    --avena-font-xxl-semibold: 600 24px/36px;
-    --avena-font-xxl-bold: 700 24px/36px;
+    --avena-font-xxl-regular: 400 24px/36px var(--avena-font-family);
+    --avena-font-xxl-medium: 500 24px/36px var(--avena-font-family);
+    --avena-font-xxl-semibold: 600 24px/36px var(--avena-font-family);
+    --avena-font-xxl-bold: 700 24px/36px var(--avena-font-family);
+
+    // TEXT COLORS
+    --avena-text-color-primary: #404040;
+    --avena-text-color-secondary: #707070;
+    --avena-text-color-tertiary: #A0A0A0;
+    --avena-text-color-quaternary: #D0D0D0;
+
+    --avena-text-color-link: #0066CC;
+    --avena-text-color-disabled: #A0A0A0;
 
     // ANIMATIONS
     --avena-transition: 0.25s;

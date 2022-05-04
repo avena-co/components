@@ -33,7 +33,7 @@ const Input = ({ className, type = 'text', name, label, placeholder, value, disa
 
     if (value?.length > 0 || isFocused) {
         labelStyle = {
-            font: 'var(--text-xs-medium) var(--font-family)',
+            font: 'var(--avena-font-xs-medium)',
             height: '18px'
         };
 
@@ -43,7 +43,7 @@ const Input = ({ className, type = 'text', name, label, placeholder, value, disa
     }
     else {
         labelStyle = {
-            font: 'var(--text-m-medium) var(--font-family)',
+            font: 'var(--avena-font-m-medium)',
             height: '42px'
         };
 
