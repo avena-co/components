@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/avena-co/components/issues"
   },
-  "homepage": "https://github.com/avena-co/components#readme"
+  "homepage": "https://github.com/avena-co/components#readme",
+  "peerDependencies": {
+    "react": "^18.1.0"
+  }
 }
