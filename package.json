@@ -1,6 +1,6 @@
 {
   "name": "@avena/components",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Avena Components for React",
   "type": "module",
   "source": "src/index.js",
