@@ -1,6 +1,6 @@
 {
   "name": "@avena/components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Avena Components for React",
   "files": [
     "./lib"
