@@ -1,38 +1,40 @@
 :root {
-    --avena-font-xxs-regular: 400 10px/15px inherit;
-    --avena-font-xxs-medium: 500 10px/15px inherit;
-    --avena-font-xxs-semibold: 600 10px/15px inherit;
-    --avena-font-xxs-bold: 700 10px/15px inherit;
+    --avena-font-family: Inter;
 
-    --avena-font-xs-regular: 400 12px/18px inherit;
-    --avena-font-xs-medium: 500 12px/18px inherit;
-    --avena-font-xs-semibold: 600 12px/18px inherit;
-    --avena-font-xs-bold: 700 12px/18px inherit;
+    --avena-font-xxs-regular: 400 10px/15px var(--avena-font-family);
+    --avena-font-xxs-medium: 500 10px/15px var(--avena-font-family);
+    --avena-font-xxs-semibold: 600 10px/15px var(--avena-font-family);
+    --avena-font-xxs-bold: 700 10px/15px var(--avena-font-family);
 
-    --avena-font-s-regular: 400 14px/21px inherit;
-    --avena-font-s-medium: 500 14px/21px inherit;
-    --avena-font-s-semibold: 600 14px/21px inherit;
-    --avena-font-s-bold: 700 14px/21px inherit;
+    --avena-font-xs-regular: 400 12px/18px var(--avena-font-family);
+    --avena-font-xs-medium: 500 12px/18px var(--avena-font-family);
+    --avena-font-xs-semibold: 600 12px/18px var(--avena-font-family);
+    --avena-font-xs-bold: 700 12px/18px var(--avena-font-family);
 
-    --avena-font-m-regular: 400 16px/24px inherit;
-    --avena-font-m-medium: 500 16px/24px inherit;
-    --avena-font-m-semibold: 600 16px/24px inherit;
-    --avena-font-m-bold: 700 16px/24px inherit;
+    --avena-font-s-regular: 400 14px/21px var(--avena-font-family);
+    --avena-font-s-medium: 500 14px/21px var(--avena-font-family);
+    --avena-font-s-semibold: 600 14px/21px var(--avena-font-family);
+    --avena-font-s-bold: 700 14px/21px var(--avena-font-family);
 
-    --avena-font-l-regular: 400 18px/27px inherit;
-    --avena-font-l-medium: 500 18px/27px inherit;
-    --avena-font-l-semibold: 600 18px/27px inherit;
-    --avena-font-l-bold: 700 18px/27px inherit;
+    --avena-font-m-regular: 400 16px/24px var(--avena-font-family);
+    --avena-font-m-medium: 500 16px/24px var(--avena-font-family);
+    --avena-font-m-semibold: 600 16px/24px var(--avena-font-family);
+    --avena-font-m-bold: 700 16px/24px var(--avena-font-family);
 
-    --avena-font-xl-regular: 400 20px/30px inherit;
-    --avena-font-xl-medium: 500 20px/30px inherit;
-    --avena-font-xl-semibold: 600 20px/30px inherit;
-    --avena-font-xl-bold: 700 20px/30px inherit;
+    --avena-font-l-regular: 400 18px/27px var(--avena-font-family);
+    --avena-font-l-medium: 500 18px/27px var(--avena-font-family);
+    --avena-font-l-semibold: 600 18px/27px var(--avena-font-family);
+    --avena-font-l-bold: 700 18px/27px var(--avena-font-family);
 
-    --avena-font-xxl-regular: 400 24px/36px inherit;
-    --avena-font-xxl-medium: 500 24px/36px inherit;
-    --avena-font-xxl-semibold: 600 24px/36px inherit;
-    --avena-font-xxl-bold: 700 24px/36px inherit;
+    --avena-font-xl-regular: 400 20px/30px var(--avena-font-family);
+    --avena-font-xl-medium: 500 20px/30px var(--avena-font-family);
+    --avena-font-xl-semibold: 600 20px/30px var(--avena-font-family);
+    --avena-font-xl-bold: 700 20px/30px var(--avena-font-family);
+
+    --avena-font-xxl-regular: 400 24px/36px var(--avena-font-family);
+    --avena-font-xxl-medium: 500 24px/36px var(--avena-font-family);
+    --avena-font-xxl-semibold: 600 24px/36px var(--avena-font-family);
+    --avena-font-xxl-bold: 700 24px/36px var(--avena-font-family);
 
     // text colors
     --avena-text-color-primary: #404040;
