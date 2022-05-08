@@ -1,1 +1,1 @@
-export { default } from './hstack';
+export { default } from './hstack.js';
