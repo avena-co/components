@@ -8,6 +8,7 @@ import HStack from './hstack';
 import Icon from './icon';
 import Input from './input';
 import Row from './row';
+import Select from './select';
 import Spacer from './spacer';
 import VStack from './vstack';
 
@@ -20,6 +21,7 @@ export {
     Icon,
     Input,
     Row,
+    Select,
     Spacer,
     VStack
 };

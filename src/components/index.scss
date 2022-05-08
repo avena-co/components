@@ -67,10 +67,10 @@
     --avena-input-background-color: #f9fbfd;
     --avena-input-background-color-disabled: #f9fbfd;
     --avena-input-border: 1px solid #c4c4c4b0;
-    --avena-input-border-focus: 1px solid #01499280;
     --avena-input-border-radius: 8px;
-    --avena-input-border-radius-focus: 8px;
     --avena-input-shadow: none;
+
+    --avena-input-border-focus: 1px solid #01499280;
     --avena-input-shadow-focus: none;
 
     // spacing
@@ -79,6 +79,9 @@
     --avena-spacing-md: 8px;
     --avena-spacing-lg: 16px;
     --avena-spacing-xl: 32px;
+
+    // z-index
+    --avena-overlay-z-index: 100;
 }
 
 *,
