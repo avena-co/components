@@ -1,0 +1,88 @@
+:root {
+    --avena-font-xxs-regular: 400 10px/15px inherit;
+    --avena-font-xxs-medium: 500 10px/15px inherit;
+    --avena-font-xxs-semibold: 600 10px/15px inherit;
+    --avena-font-xxs-bold: 700 10px/15px inherit;
+
+    --avena-font-xs-regular: 400 12px/18px inherit;
+    --avena-font-xs-medium: 500 12px/18px inherit;
+    --avena-font-xs-semibold: 600 12px/18px inherit;
+    --avena-font-xs-bold: 700 12px/18px inherit;
+
+    --avena-font-s-regular: 400 14px/21px inherit;
+    --avena-font-s-medium: 500 14px/21px inherit;
+    --avena-font-s-semibold: 600 14px/21px inherit;
+    --avena-font-s-bold: 700 14px/21px inherit;
+
+    --avena-font-m-regular: 400 16px/24px inherit;
+    --avena-font-m-medium: 500 16px/24px inherit;
+    --avena-font-m-semibold: 600 16px/24px inherit;
+    --avena-font-m-bold: 700 16px/24px inherit;
+
+    --avena-font-l-regular: 400 18px/27px inherit;
+    --avena-font-l-medium: 500 18px/27px inherit;
+    --avena-font-l-semibold: 600 18px/27px inherit;
+    --avena-font-l-bold: 700 18px/27px inherit;
+
+    --avena-font-xl-regular: 400 20px/30px inherit;
+    --avena-font-xl-medium: 500 20px/30px inherit;
+    --avena-font-xl-semibold: 600 20px/30px inherit;
+    --avena-font-xl-bold: 700 20px/30px inherit;
+
+    --avena-font-xxl-regular: 400 24px/36px inherit;
+    --avena-font-xxl-medium: 500 24px/36px inherit;
+    --avena-font-xxl-semibold: 600 24px/36px inherit;
+    --avena-font-xxl-bold: 700 24px/36px inherit;
+
+    // text colors
+    --avena-text-color-primary: #404040;
+    --avena-text-color-secondary: #707070;
+    --avena-text-color-tertiary: #a0a0a0;
+    --avena-text-color-quaternary: #d0d0d0;
+
+    --avena-text-color-link: #0066cc;
+    --avena-text-color-disabled: #a0a0a0;
+
+    // animations
+    --avena-transition: 0.25s;
+
+    // buttons
+    --avena-button-background-color: #0066cc;
+    --avena-button-background-color-disabled: #f9fbfd;
+    --avena-button-border: none;
+    --avena-button-border-radius: 4px;
+    --avena-button-shadow: 0px 1px 1px #c4c4c4;
+    --avena-button-text-color: #ffffff;
+    --avena-button-text-color-disabled: #a0a0a0;
+
+    // cards
+    --avena-card-background-color: #ffffff;
+    --avena-card-border: none;
+    --avena-card-border-radius: 8px;
+    --avena-card-shadow: 0px 2px 2px #c4c4c4;
+
+    // inputs
+    --avena-input-background-color: #f9fbfd;
+    --avena-input-background-color-disabled: #f9fbfd;
+    --avena-input-border: 1px solid #c4c4c4b0;
+    --avena-input-border-focus: 1px solid #01499280;
+    --avena-input-border-radius: 8px;
+    --avena-input-border-radius-focus: 8px;
+    --avena-input-shadow: none;
+    --avena-input-shadow-focus: none;
+
+    // spacing
+    --avena-spacing-xs: 2px;
+    --avena-spacing-sm: 4px;
+    --avena-spacing-md: 8px;
+    --avena-spacing-lg: 16px;
+    --avena-spacing-xl: 32px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.5em;
+}

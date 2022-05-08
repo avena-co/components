@@ -3,7 +3,7 @@
   font-weight: 100 900;
   font-display: swap;
   font-style: oblique 0deg 10deg;
-  src: url('./fonts/inter.var.ttf') format('ttf');
+  src: url('fonts/inter.var.ttf') format('ttf');
 }
 
 @font-face {
@@ -11,99 +11,24 @@
   font-weight: 100 900;
   font-display: swap;
   font-style: oblique 0deg 10deg;
-  src: url('./fonts/source-code-pro.var.ttf') format('ttf');
-}
-
-:root {
-
-    // FONTS
-    --avena-font-family: 'Inter', sans-serif;
-    --avena-font-family-monospace: 'Source Code Pro', monospace;
-
-    --avena-font-xxs-regular: 400 10px/15px var(--avena-font-family);
-    --avena-font-xxs-medium: 500 10px/15px var(--avena-font-family);
-    --avena-font-xxs-semibold: 600 10px/15px var(--avena-font-family);
-    --avena-font-xxs-bold: 700 10px/15px var(--avena-font-family);
-
-    --avena-font-xs-regular: 400 12px/18px var(--avena-font-family);
-    --avena-font-xs-medium: 500 12px/18px var(--avena-font-family);
-    --avena-font-xs-semibold: 600 12px/18px var(--avena-font-family);
-    --avena-font-xs-bold: 700 12px/18px var(--avena-font-family);
-
-    --avena-font-s-regular: 400 14px/21px var(--avena-font-family);
-    --avena-font-s-medium: 500 14px/21px var(--avena-font-family);
-    --avena-font-s-semibold: 600 14px/21px var(--avena-font-family);
-    --avena-font-s-bold: 700 14px/21px var(--avena-font-family);
-
-    --avena-font-m-regular: 400 16px/24px var(--avena-font-family);
-    --avena-font-m-medium: 500 16px/24px var(--avena-font-family);
-    --avena-font-m-semibold: 600 16px/24px var(--avena-font-family);
-    --avena-font-m-bold: 700 16px/24px var(--avena-font-family);
-
-    --avena-font-l-regular: 400 18px/27px var(--avena-font-family);
-    --avena-font-l-medium: 500 18px/27px var(--avena-font-family);
-    --avena-font-l-semibold: 600 18px/27px var(--avena-font-family);
-    --avena-font-l-bold: 700 18px/27px var(--avena-font-family);
-
-    --avena-font-xl-regular: 400 20px/30px var(--avena-font-family);
-    --avena-font-xl-medium: 500 20px/30px var(--avena-font-family);
-    --avena-font-xl-semibold: 600 20px/30px var(--avena-font-family);
-    --avena-font-xl-bold: 700 20px/30px var(--avena-font-family);
-
-    --avena-font-xxl-regular: 400 24px/36px var(--avena-font-family);
-    --avena-font-xxl-medium: 500 24px/36px var(--avena-font-family);
-    --avena-font-xxl-semibold: 600 24px/36px var(--avena-font-family);
-    --avena-font-xxl-bold: 700 24px/36px var(--avena-font-family);
-
-    // TEXT COLORS
-    --avena-text-color-primary: #404040;
-    --avena-text-color-secondary: #707070;
-    --avena-text-color-tertiary: #A0A0A0;
-    --avena-text-color-quaternary: #D0D0D0;
-
-    --avena-text-color-link: #0066CC;
-    --avena-text-color-disabled: #A0A0A0;
-
-    // ANIMATIONS
-    --avena-transition: 0.25s;
-
-    // BUTTONS
-    --avena-button-background-color: #0066cc;
-    --avena-button-background-color-disabled: #f9fbfd;
-    --avena-button-border: none;
-    --avena-button-border-radius: 4px;
-    --avena-button-shadow: 0px 1px 1px #c4c4c4;
-    --avena-button-text-color: #ffffff;
-    --avena-button-text-color-disabled: #a0a0a0;
-
-    // CARDS
-    --avena-card-background-color: #ffffff;
-    --avena-card-border: none;
-    --avena-card-border-radius: 8px;
-    --avena-card-shadow: 0px 2px 2px #c4c4c4;
-
-    // INPUTS
-    --avena-input-background-color: #F9FBFD;
-    --avena-input-background-color-disabled: #F9FBFD;
-    --avena-input-border: none;
-    --avena-input-border-focus: none;
-    --avena-input-border-radius: 8px;
-    --avena-input-border-radius-focus: 8px;
-    --avena-input-shadow: 0px 1px 1px #c4c4c4;
-    --avena-input-shadow-focus: 0px 1px 1px #014992;
-
-    // SPACING
-    --avena-spacing-xs: 2px;
-    --avena-spacing-sm: 4px;
-    --avena-spacing-md: 8px;
-    --avena-spacing-lg: 16px;
-    --avena-spacing-xl: 32px;
+  src: url('fonts/source-code-pro.var.ttf') format('ttf');
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: var(--avena-font-family);
+  font-family: Inter;
   line-height: 1.5em;
+}
+
+html,
+body,
+#root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
 }
