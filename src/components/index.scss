@@ -41,9 +41,46 @@
     --avena-text-color-secondary: #707070;
     --avena-text-color-tertiary: #a0a0a0;
     --avena-text-color-quaternary: #d0d0d0;
-
+    
     --avena-text-color-link: #0066cc;
-    --avena-text-color-disabled: #a0a0a0;
+    --avena-text-color-disabled: #B5B8BB;
+    --avena-text-color-icons: #7C7B7B;
+    --avena-text-color-stroke: #D7D7D7;
+    --avena-text-color-dividers: #EFF2F5;
+    --avena-text-color-disabled-bg: #F2F6F9;
+    --avena-text-color-white: #FFFFFF;
+    
+    // accent colors
+    --avena-accent-color-primary: #0066CC;
+    --avena-accent-color-secondary: #0F3152;
+    --avena-accent-color-tertiary: #0066CC;
+    --avena-accent-color-quaternary: #1890FF;
+
+    --avena-accent-color-bg: #EFF7FF;
+    --avena-accent-color-hover-state: #015BB5;
+    --avena-accent-color-click-state: #014992;
+    
+    // gradients
+    --avena-gradient-color-primary: linear-gradient(267.67deg, #597EF7 7.9%, #CA61A2 112.59%);
+    --avena-gradient-color-secondary: linear-gradient(255.33deg, #0066CC -9%, #02C58A 157.39%);
+    --avena-gradient-color-tertiary: linear-gradient(267.55deg, #1890FF 58.86%, #012D84 139.54%);
+    
+    // system colors
+    --avena-system-color-successful-hover: #28B411;
+    --avena-system-color-successful-primary: #3AC922;
+    --avena-system-color-successful-secondary: #B2FFA6;
+    --avena-system-color-successful-tertiary: #E6FFE2;
+
+    --avena-system-color-attention-text: #AD8B00;
+    --avena-system-color-attention-hover: #F7D523;
+    --avena-system-color-attention-primary: #F7D523;
+    --avena-system-color-attention-secondary: #FFEF98;
+    --avena-system-color-attention-tertiary: #FFFAE1;
+    
+    --avena-system-color-error-hover: #ED2121;
+    --avena-system-color-error-primary: #FF3030;
+    --avena-system-color-error-secondary: #FFC0C0;
+    --avena-system-color-error-tertiary: #FFF2F2;
 
     // animations
     --avena-transition: 0.25s;
