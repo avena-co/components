@@ -30,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "webpack",
-    "deploy": "npm run build && npm publish"
+    "deploy": "npm version patch && npm run build && npm publish"
   },
   "browserslist": {
     "production": [
