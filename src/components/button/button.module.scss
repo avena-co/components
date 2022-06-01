@@ -7,11 +7,63 @@
     box-shadow: var(--avena-button-shadow);
     font: var(--avena-font-m-medium);
     outline: none;
-    padding: 12px 24px;
+    padding: var(--avena-button-padding-md);
     transition: all var(--avena-transition);
 
     &:disabled {
         background-color: var(--avena-button-background-color-disabled);
         color: var(--avena-button-text-color-disabled);
     }
+
+    &:hover {
+        color: var(--avena-accent-color-hover-state);
+    }
+
+    &:active {
+        color: var(--avena-accent-color-click-state);
+    }
+}
+
+.secondary {
+    background-color: inherit;
+    border: 1px solid var(--avena-accent-color-tertiary);
+    box-sizing: border-box;
+    color: var(--avena-accent-color-tertiary);
+
+    &:disabled {
+        border: 1px solid var(--avena-text-color-disabled);
+    }
+
+    &:hover {
+        border: 1px solid var(--avena-accent-color-hover-state);
+    }
+
+    &:active {
+        border: 1px solid var(--avena-accent-color-click-state);
+    }
+}
+
+.tertiary {
+    background: inherit;
+    color: var(--avena-accent-color-tertiary);
+
+    &:hover {
+        box-shadow: 0px 1px 1px rgba(21, 125, 227, 0.4);
+    }
+
+    &:active {
+        box-shadow: 0px 1px 1px rgba(1, 73, 146, 0.8);
+    }
+
+    &:disabled {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.paddingLarge {
+    padding: var(--avena-button-padding-lg);
+}
+
+.paddingSmall {
+    padding: var(--avena-button-padding-sm);
 }
