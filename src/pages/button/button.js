@@ -14,7 +14,9 @@ const ButtonPage = ({ className, children, ...props }) => {
         <div className={[styles.button, className].join(' ')} {...props}>
             <p>type Props: primary(default), secondary, tertiary</p>
             <p>size Props: large, medium(default), small</p>
-            <Button type='secondary' size='small'>Test Button</Button>
+            <Button size='small'>Primary</Button>
+            <Button type='secondary' size='small'>Secondary</Button>
+            <Button type='tertiary' size='small'>Tertiary</Button>
         </div>
     );
 };

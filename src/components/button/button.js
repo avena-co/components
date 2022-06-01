@@ -6,10 +6,10 @@ import styles from './button.module.scss';
 const Button = ({ className, children, size, type, ...props }) => {
     // type => primary(default), secondary, tertiary
     // size => large, medium(default), small
-    let typeStyle = null;
+    let typeStyle = styles.primary;
     switch (type) {
         case 'primary':
-            typeStyle = null;
+            typeStyle = styles.primary;
             break;
         case 'secondary':
             typeStyle = styles.secondary;
@@ -18,7 +18,7 @@ const Button = ({ className, children, size, type, ...props }) => {
             typeStyle = styles.tertiary;
             break;
         default:
-            typeStyle = null;
+            typeStyle = styles.primary;
             break;
     }
 

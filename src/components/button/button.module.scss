@@ -14,13 +14,15 @@
         background-color: var(--avena-button-background-color-disabled);
         color: var(--avena-button-text-color-disabled);
     }
+}
 
+.primary {
     &:hover {
-        color: var(--avena-accent-color-hover-state);
+        background: var(--avena-accent-color-hover-state);;
     }
 
     &:active {
-        color: var(--avena-accent-color-click-state);
+        background: var(--avena-accent-color-click-state);
     }
 }
 
@@ -36,9 +38,11 @@
 
     &:hover {
         border: 1px solid var(--avena-accent-color-hover-state);
+        color: var(--avena-accent-color-hover-state);
     }
 
     &:active {
+        color: var(--avena-accent-color-click-state);
         border: 1px solid var(--avena-accent-color-click-state);
     }
 }
@@ -49,9 +53,11 @@
 
     &:hover {
         box-shadow: 0px 1px 1px rgba(21, 125, 227, 0.4);
+        color: var(--avena-accent-color-hover-state);
     }
 
     &:active {
+        color: var(--avena-accent-color-click-state);
         box-shadow: 0px 1px 1px rgba(1, 73, 146, 0.8);
     }
 
