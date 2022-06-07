@@ -9,11 +9,6 @@
     outline: none;
     padding: var(--avena-button-padding-md);
     transition: all var(--avena-transition);
-
-    &:disabled {
-        background-color: var(--avena-button-background-color-disabled);
-        color: var(--avena-button-text-color-disabled);
-    }
 }
 
 .primary {
@@ -24,6 +19,13 @@
     &:active {
         background: var(--avena-accent-color-click-state);
     }
+
+    &:disabled {
+        border: none;
+        background-color: var(--avena-button-background-color-disabled);
+        color: var(--avena-button-text-color-disabled);
+        cursor: not-allowed;
+    }
 }
 
 .secondary {
@@ -31,10 +33,6 @@
     border: 1px solid var(--avena-accent-color-tertiary);
     box-sizing: border-box;
     color: var(--avena-accent-color-tertiary);
-
-    &:disabled {
-        border: 1px solid var(--avena-text-color-disabled);
-    }
 
     &:hover {
         border: 1px solid var(--avena-accent-color-hover-state);
@@ -44,6 +42,13 @@
     &:active {
         color: var(--avena-accent-color-click-state);
         border: 1px solid var(--avena-accent-color-click-state);
+    }
+
+    &:disabled {
+        border: none;
+        background-color: var(--avena-button-background-color-disabled);
+        color: var(--avena-button-text-color-disabled);
+        cursor: not-allowed;
     }
 }
 
@@ -62,7 +67,11 @@
     }
 
     &:disabled {
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+        border: none;
+        background-color: var(--avena-button-background-color-disabled);
+        color: var(--avena-button-text-color-disabled);
+        cursor: not-allowed;
+        box-shadow: var(--avena-button-shadow);
     }
 }
 
