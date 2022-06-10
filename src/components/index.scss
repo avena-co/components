@@ -106,12 +106,12 @@
     // inputs
     --avena-input-background-color: #f9fbfd;
     --avena-input-background-color-disabled: #f9fbfd;
-    --avena-input-border: 1px solid #c4c4c4b0;
-    --avena-input-border-radius: 8px;
-    --avena-input-shadow: none;
+    --avena-input-border: none;
+    --avena-input-border-radius: 4px;
+    --avena-input-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 
-    --avena-input-border-focus: 1px solid #01499280;
-    --avena-input-shadow-focus: none;
+    --avena-input-border-focus: none;
+    --avena-input-shadow-focus: 0px 1px 1px rgba(21, 125, 227, 0.4);
 
     // spacing
     --avena-spacing-xs: 2px;
