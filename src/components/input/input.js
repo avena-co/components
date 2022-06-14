@@ -8,7 +8,7 @@ import VStack from '../vstack';
 // styles
 import styles from './input.module.scss';
 
-const Input = ({ className, type = 'text', name, label, placeholder, value, disabled, addonBefore, addonAfter, onChange, ...props }) => {
+const Input = ({ className, type = 'text', name, label, placeholder, value, disabled, addonBefore, addonAfter, forwardRef, onChange, ...props }) => {
     const [isVisible, setVisible] = useState(false);
     const [isFocused, setFocused] = useState(false);
 
@@ -63,7 +63,7 @@ const Input = ({ className, type = 'text', name, label, placeholder, value, disa
             {addonBefore}
             <VStack style={{ flex: '1 1 0px' }}>
                 <label htmlFor={inputId} style={labelStyle}>{label}</label>
-                <input id={inputId} style={inputStyle} type={type} value={value} disabled={disabled} onBlur={handleBlur} onChange={handleChange} onFocus={handleFocus} />
+                <input id={inputId} style={inputStyle} ref={forwardRef} type={type} value={value} disabled={disabled} onBlur={handleBlur} onChange={handleChange} onFocus={handleFocus} />
             </VStack>
             {addonAfter}
         </HStack>
