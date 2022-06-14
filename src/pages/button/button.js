@@ -2,8 +2,7 @@ import React from 'react';
 
 // components
 import {
-    Button,
-    Input
+    Button
 } from 'components';
 
 // styles
@@ -42,7 +41,6 @@ const ButtonPage = ({ className, children, ...props }) => {
                 <Button size='large' type='tertiary' disabled={true}>Tertiary-Large</Button>
             </div>
             <br />
-            <Input type="password" />
         </div>
     );
 };
